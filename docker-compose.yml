@@ -7,4 +7,4 @@ services:
     volumes:
       - ./build:/data
     environment:
-      - VIRTUAL_HOST="randomport.io,*.amazonaws.com"
+      - VIRTUAL_HOST=randomport.io
