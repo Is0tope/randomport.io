@@ -3,15 +3,13 @@ import { Button, FormGroup, Radio} from 'react-bootstrap';
 import FaWindows from 'react-icons/lib/fa/windows';
 import FaLinux from 'react-icons/lib/fa/linux';
 import FaApple from 'react-icons/lib/fa/apple';
-import FaPlug from 'react-icons/lib/fa/plug';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
 	constructor(props) {
 	    super(props);
 	    this.state = {
-	    	os : 'windows'
+	    	os : 'linux'
 	    };
   	}
 
