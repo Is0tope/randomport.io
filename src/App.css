@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.osPicker {
+  margin-top: 20px;
+  font-size: 16pt;
+}
+
+.randomPortText {
+  color: #0275d8;
+  font-size: 60pt;
+  font-family: "courier";
+  margin-top: 20px;
+}
+.newOne {
+  margin-top: 15px;
+}
