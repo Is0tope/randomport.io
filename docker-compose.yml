@@ -1,0 +1,10 @@
+version: '2'
+services:
+  nginx:
+    build: .
+    ports:
+      - "48778:80"
+    volumes:
+      - ./build:/data
+    environment:
+      - VIRTUAL_HOST="randomport.io,*.amazonaws.com"

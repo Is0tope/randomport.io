@@ -21,7 +21,7 @@ class App extends Component {
 		return (
 			<div className="container-fluid App">
 				<h1>randomport.io</h1>
-				<small>Generate a random <a href="https://en.wikipedia.org/wiki/Ephemeral_port">ephemeral port</a> in the valid range for your OS.</small>
+				<small>Generate a random <a target="_blank" href="https://en.wikipedia.org/wiki/Ephemeral_port">ephemeral port</a> in the valid range for your OS.</small>
 				<FormGroup className="osPicker">
 				<Radio inline checked={'linux'===this.state.os} onChange={this.setOS.bind(this,'linux')}>
 					<FaLinux />
