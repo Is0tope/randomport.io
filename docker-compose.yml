@@ -2,9 +2,14 @@ version: '2'
 services:
   nginx:
     build: .
-    ports:
-      - "48778:80"
     volumes:
       - ./build:/data
     environment:
       - VIRTUAL_HOST=randomport.io
+    networks:
+      - default
+      - proxy-network
+
+networks:
+  proxy-network:
+    external: true
